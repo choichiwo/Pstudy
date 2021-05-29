@@ -33,7 +33,41 @@ print("반지름 =", r)
 print("원의 둘레 =", 2*pi*r)
 print("원의 넓이 =", pi*r*r )
 
-num = input("숫자를 입력하세요")
-num = int(num)
+#num = input("숫자를 입력하세요")
+#num = int(num)
 
-print(num +3)
+#print(num +3)
+
+n = str(14)
+print(type(n))
+
+x = 12
+print('x = {}'.format(x))
+print('x = {},y={}'.format(x,12))
+print('x = {},y={}'.format(x,24))
+print('x = {},y={}'.format(x,12))
+y = 5
+print('x = {},y={}'.format(x,5))
+
+print('x[{}]'.format(x))
+
+print('x[{:5d}]'.format(x)) # decimal(십진수)
+
+print('x[{}], x[{:5d}]'.format(x,x))
+
+fmtstr = 'x[{}], x[{:5d}]'.format(x,x)
+
+print(fmtstr)
+print(type(fmtstr))
+
+pstr = 'x[{}], x[{:5d}]'
+fmtstr = pstr.format(x,x)
+print(fmtstr)
+
+# m.nf m:소수점을 포함한 전체길이 n: 소수점이하 자리수
+
+from random import shuffle
+num = range(1, 12)
+num = list(num)
+num = shuffle(num)
+print(num)
