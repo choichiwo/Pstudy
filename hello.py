@@ -64,6 +64,7 @@ pstr = 'x[{}], x[{:5d}]'
 fmtstr = pstr.format(x,x)
 print(fmtstr)
 
+print('z[{:5.2f}]'.format(3.14))
 # m.nf m:소수점을 포함한 전체길이 n: 소수점이하 자리수
 
 from random import shuffle
