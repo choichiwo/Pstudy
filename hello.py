@@ -35,4 +35,5 @@ print("원의 넓이 =", pi*r*r )
 
 num = input("숫자를 입력하세요")
 num = int(num)
+
 print(num +3)
