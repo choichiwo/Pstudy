@@ -88,7 +88,7 @@ print(x.rfind('l'))
 
 # split() 문자열 자르기 공백을 기준으로 자르기,  (',') ,기준으로 자르기
 
-# 불 연산자 논리비교 == 같다 , != 다르다, 
+# 불 연산자 비교연산자 == 같다 , != 다르다, 
 # >크다, <작다, <=작거나 같다 >=크거나 같다  b=true; b=false;
 a=1
 b=2
@@ -97,3 +97,8 @@ if(a==b):
     print(a)
 else: 
     print(b)
+
+# 불 논리연산자 not(반대로), and(둘다)~이고~고~그리고, or(둘중하나)~거나~또는~혹은
+# 문자열 사전에 나오는 순서 "a" < "z" true "a" < "aa" true "abyss" < "abroad" false 
+# "HelloWorld" < "Hello World" false   "공백"ABCD...Zabcd....z   순서대로 (공백<대문자<소문자)
+
