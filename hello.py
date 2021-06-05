@@ -102,7 +102,9 @@ else:
 # 문자열 사전에 나오는 순서 "a" < "z" true "a" < "aa" true "abyss" < "abroad" false 
 # "HelloWorld" < "Hello World" false   "공백"ABCD...Zabcd....z   순서대로 (공백<대문자<소문자)
 
-# if 논리비교:
+# if 논리비교: 조건문
+# elif 또 다른 조건
+# else 아니면
 if a != 1:
     print('true')
 else:
@@ -115,3 +117,56 @@ print("{}년 {}월 {}일".format(now.year,now.month,now.day))
 if 5< now.month <9:
     print("이번달은 {}월로 봄입니다".format(now.month))
 
+x = input("x=")
+y = input("y=")
+
+x=int(x)
+y=int(y)
+5
+if x < y:
+    print(x)
+else:
+    print(y)
+
+
+number = input("입력해주세요")
+last_character = number[-1]
+print(type(last_character))
+last_number = int(last_character)
+
+if last_number == 0 \
+    or last_number == 2 \
+    or last_number == 4 \
+    or last_number == 6 \
+    or last_number == 8:
+    print("짝수입니다")    
+else:
+    print("홀수입니다")    
+
+a = input("a=")
+b = input("b=")
+a = int(a)
+b = int(b)
+if a == b*4:
+    print(a)
+else:
+    print(b)
+ 
+val = input("val = ")
+val = int(val)
+if val%3 == 0:
+    print("3의 배수")
+else:
+    print("3의 배수 아님")      
+
+    a = int(input("a= "))
+if a%3 ==0 and a%2 ==0:
+    print(a,"3과2의 공배수")
+else:
+    print(a)    
+
+
+i = 0
+while i < 5:
+    print("{}번쨰 반복입니다".format(i))
+    i += 2    
