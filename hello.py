@@ -102,3 +102,16 @@ else:
 # 문자열 사전에 나오는 순서 "a" < "z" true "a" < "aa" true "abyss" < "abroad" false 
 # "HelloWorld" < "Hello World" false   "공백"ABCD...Zabcd....z   순서대로 (공백<대문자<소문자)
 
+# if 논리비교:
+if a != 1:
+    print('true')
+else:
+    print('false')
+
+import datetime
+now = datetime.datetime.now()
+print("{}년 {}월 {}일".format(now.year,now.month,now.day))
+
+if 5< now.month <9:
+    print("이번달은 {}월로 봄입니다".format(now.month))
+
