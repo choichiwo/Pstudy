@@ -60,15 +60,40 @@ fmtstr = 'x[{}], x[{:5d}]'.format(x,x)
 print(fmtstr)
 print(type(fmtstr))
 
+# :d (decimal:십진수,정수)
 pstr = 'x[{}], x[{:5d}]'
 fmtstr = pstr.format(x,x)
 print(fmtstr)
 
 print('z[{:5.2f}]'.format(3.14))
-# m.nf m:소수점을 포함한 전체길이 n: 소수점이하 자리수
+# m.nf m:소수점을 포함한 전체길이 n: 소수점이하 자리수 f:실수
 
-from random import shuffle
-num = range(1, 12)
-num = list(num)
-num = shuffle(num)
-print(num)
+x = "Hello"
+print(x)
+print(x.upper())
+x = x.upper()
+#upper: 대문자로 변환  lower: 소문자로 전환  <- mathod 메소드, 함수
+print(x.lower())
+
+#strip: 불필요 공백 삭제 l좌 r우
+x = "  Hello World    "
+print('['+x+']')
+print(x.strip())
+#is000 체킹 함수
+print("TrainA10".isalnum()) #문자열이 알파벳 또는 숫자로 구성되는시 확인
+x = "Hello world"
+# find: 왼쪽부터 rfind: 오를쪽부터   모든 문자열은 배열.(인덱스번호를 갖는다.)
+print(x.rfind('l'))
+# in = contain(포함)
+
+# split() 문자열 자르기 공백을 기준으로 자르기,  (',') ,기준으로 자르기
+
+# 불 연산자 논리비교 == 같다 , != 다르다, 
+# >크다, <작다, <=작거나 같다 >=크거나 같다  b=true; b=false;
+a=1
+b=2
+
+if(a==b):
+    print(a)
+else: 
+    print(b)
