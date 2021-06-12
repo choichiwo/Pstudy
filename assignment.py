@@ -1,10 +1,5 @@
-number = input("정수입력")
-number = int(number)
+#for문 기본 형태 for i in range(10): print(i)
 
-if number > 0:
-
-    pass
-else:
-    pass
-
-print(number)
+array = [12, 23 ,52]
+for ee in array:
+    print(ee)
