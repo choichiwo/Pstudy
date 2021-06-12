@@ -203,3 +203,13 @@ b = ['a', 'b', 'c']
 x=b.pop()
 print(x)
 print(b)
+
+#for문 기본 형태 for i in range(10): print(i)  (0,13,2)형태는 (시작,끝+1,간격)
+
+array = [12, 23 ,52]
+for ee in array:
+    print(ee)
+
+
+for i in range(0,101,3):
+    print(i)
