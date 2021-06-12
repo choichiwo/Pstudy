@@ -204,7 +204,7 @@ x=b.pop()
 print(x)
 print(b)
 
-#for문 기본 형태 for i in range(10): print(i)  (0,13,2)형태는 (시작,끝+1,간격)
+#for문 기본 형태 for i in range(10): print(i)  (0,13,2)형태는 (시작,끝+1,간격) 이때 -1 하면 작아짐
 
 array = [12, 23 ,52]
 for ee in array:
@@ -213,3 +213,39 @@ for ee in array:
 
 for i in range(0,101,3):
     print(i)
+
+#range 리스트를 만드는 함수 a = list(range(3,9))  == [3,4,5,6,7,8] 
+
+
+sum = 0
+for i in range(1,11):
+    sum += i
+print(sum)
+
+# while 
+c = 0
+i = 0
+s = 0
+while i <10:
+    c = c +i
+    i = i +1    
+print(c)    
+
+
+for i in range(10):
+    s = s+i
+print(s)
+
+i = -1
+while i < 30:
+    print(i)
+    i=i+3
+
+
+for i in range(3):
+    for j in range(2):
+        print(i,j)
+
+for a in range(2,10):
+    for b in range(1,10):
+        print("{}X{}={}".format(a,b,a*b))
