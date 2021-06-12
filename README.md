@@ -14,4 +14,4 @@ http://3.134.55.142/ncs/ncs.php?class=ncs6&namer=최치원
 
 세트(Set): {}
 
-딕셔너리(Dictionary):
+딕셔너리(Dictionary): {}

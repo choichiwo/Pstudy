@@ -249,3 +249,12 @@ for i in range(3):
 for a in range(2,10):
     for b in range(1,10):
         print("{}X{}={}".format(a,b,a*b))
+
+d=1
+while d <10:
+    g=1  
+    while g <10:       
+        print("{} X {} = {}".format(d,g,d*g))
+        g+=1
+    print()
+    d+=1        
