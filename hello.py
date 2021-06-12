@@ -170,3 +170,18 @@ i = 0
 while i < 5:
     print("{}번쨰 반복입니다".format(i))
     i += 2    
+
+
+x = input('x=')
+x = int(x) 
+
+if x%3 == 0:
+    print(x, '는 3의 배수')
+elif x%5 == 0:
+    print(x, '는 5의 배수')
+elif x%2 == 0:
+    print(x, '는 2의 배수')          
+else:
+    print(x, '해당없음')      
+    
+# 빈칸(null)이거나 0 이면 false로 인식    

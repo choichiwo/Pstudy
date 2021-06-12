@@ -1,11 +1,10 @@
-x = input('x=')
-x = int(x) 
+number = input("정수입력")
+number = int(number)
 
-if x%3 == 0:
-    print(x, '는 3의 배수')
-elif x%5 == 0:
-    print(x, '는 5의 배수')
-elif x%2 == 0:
-    print(x, '는 2의 배수')          
+if number > 0:
+
+    pass
 else:
-    print(x, '해당없음')      
+    pass
+
+print(number)
