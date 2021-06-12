@@ -183,5 +183,23 @@ elif x%2 == 0:
     print(x, '는 2의 배수')          
 else:
     print(x, '해당없음')      
-    
+
 # 빈칸(null)이거나 0 이면 false로 인식    
+
+number = input("정수입력")
+number = int(number)
+
+#pass 넘어가기
+if number > 0:
+
+    pass
+else:
+    pass
+
+print(number)
+
+#pop의 예시 지우기만 하는게 아니라 값을 리턴도 해준다. del과 다른점
+b = ['a', 'b', 'c']
+x=b.pop()
+print(x)
+print(b)
