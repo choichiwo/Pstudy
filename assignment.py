@@ -1,5 +1,10 @@
-sum = 0
-for i in range(1,11):
-    sum = sum+i
-    print(sum)
+d=1
+while d <10:
+    g=1  
+    while g <10:       
+        print("{} X {} = {}".format(d,g,d*g))
+        g+=1
+    print()
+    d+=1
+
 
