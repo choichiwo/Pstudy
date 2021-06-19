@@ -284,3 +284,13 @@ while a < 10:
     if a >7:
         continue #잘못 사용시 무한루프에 걸림
     a = a+1
+
+student = []
+
+x = input('이름: ')
+
+while x != "":
+    student.append({'name':x})
+    x = input('이름: ')
+
+print(student)        
