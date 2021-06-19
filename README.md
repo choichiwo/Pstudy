@@ -36,3 +36,6 @@ for x in a:
 
 
 class1[0]['eng'] = 리스트안에 여러가지 딕셔너리들이 있을때 원하는 값을 구할떄 
+
+함수(function) : def 함수이름()
+routine 반복적으로 단순한 작업
