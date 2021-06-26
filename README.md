@@ -42,3 +42,9 @@ class1[0]['eng'] = 리스트안에 여러가지 딕셔너리들이 있을때 원
 2.elegance code (가독성, 간단)
 
 routine 반복적으로 단순한 작업
+
+
+nested의 형태: if = if 논리/비교:
+                if = if 논리/비교:
+
+break는 가장 안쪽의 반복문만 탈출!!!
