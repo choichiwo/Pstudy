@@ -49,3 +49,15 @@ nested의 형태: if = if 논리/비교:
 
 break는 가장 안쪽의 반복문만 탈출!!!
 
+
+module 표준 - python설치와 함게 (내장함수)
+       외부 - pip install 명령 Linux
+       사용자 정의
+
+import math 해줘야 (아래) 함수 사용 가능
+
+ceil() 보다 큰 정수 중 가장 작은 수
+
+floor() 보다 작은 정수 중 가장 큰수
+
+round() 반올림 함수 그러나 짝수인 것들은 내림이 되어 출력 홀수는 반올림

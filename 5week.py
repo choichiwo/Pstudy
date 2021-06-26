@@ -157,3 +157,14 @@ else:
     print("No error")    
 finally:
     print("프로그램 종료")      
+
+# 임포트한것을 약식으로 설정하여 사용 (아래)
+import math as m
+
+m.ceil()
+
+#여러가지 함수를 가져오고 싶을때  앞에  math를 쓰지않고 사용하는법(아래)
+
+from math import sin, cos, tan, floor, ceil
+n = sin(1)
+m = ceil(2.5)
