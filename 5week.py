@@ -85,13 +85,75 @@ print(pluss(100))
 # f1(1)
 # f1(1,23,4,2,6,8,7,9,12)
 
-f = open("c:/document/menu.txt","w") #.w = for write(없으면 생성하고 열기, 있으면 기존내용 삭제하구 열기), .a = for append(없으면 생성하고 열기, 기존내용 유지 뒤에 새 내용 추가), .r = for read()
+# f = open("c:/document/menu.txt","w") #.w = for write(없으면 생성하고 열기, 있으면 기존내용 삭제하구 열기), .a = for append(없으면 생성하고 열기, 기존내용 유지 뒤에 새 내용 추가), .r = for read()
 
-file = open("basic.txt","w")
-file.write("Hello Python Programming...")
-file.close()
+# file = open("basic.txt","w")
+# file.write("Hello Python Programming...")
+# file.close()
 
 
-file = open("basic.txt","r")
+# file = open("basic.txt","r")
+# line=file.read()
+# file.close()
+
+
+#file = open("d:/menu.txt","w")
+with open("d:/menu.txt","w") as file: #close를 안써두 됨
+    file.write("모카 3500\n") #\n 줄바꿈
+    file.write("라떄 3000\n")
+    file.write("카푸치노 3700\n")
+#file.close()
+
+
+file = open("d:/menu.txt","r")
 line=file.read()
+print(line)
 file.close()
+
+try:
+    a=[1,2,3,4,5]
+    for i in range(6):
+        print(a[i])
+except:
+    print("에러발생")
+else:
+    print("No error")    
+finally:
+    print("프로그램 종료")         
+
+try:
+    file=open("d:/menu.txt","w")
+    file.write("Hello World")
+    file.close()
+except:
+    if file: #file is not None: 이런식으로도 사용가능   (방어적 프로그램이라구 말함)
+        file.close()
+    print("에러발생")
+else:
+    print("No error")    
+finally:
+    print("프로그램 종료")    
+
+try:
+    file=open("d:/menu2.txt","r")
+    file.write("Hello World")
+    file.close()
+except Exception as e: 
+    print(e)     
+else:
+    print("No error")    
+finally:
+    print("프로그램 종료")                   
+
+try:
+    ......
+except ValueError:
+    print("값 오류")     
+except IndexError:
+    print("OutOfBoundIndexError")   
+except Exception as e: 
+    print("기타 일반오류")      
+else:
+    print("No error")    
+finally:
+    print("프로그램 종료")      
