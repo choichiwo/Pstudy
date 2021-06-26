@@ -164,7 +164,7 @@ import math as m
 m.ceil()
 
 #여러가지 함수를 가져오고 싶을때  앞에  math를 쓰지않고 사용하는법(아래)
-
+#froom 모듈 import 함수 as (함수)별명
 from math import sin, cos, tan, floor, ceil
 n = sin(1)
 m = ceil(2.5)
