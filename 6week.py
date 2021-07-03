@@ -13,3 +13,10 @@
 #자바스크립트  / 제이쿼리(라이브러리) / react(프레임워크)
 
 #1capsulization 2상속 3다형성 4추상화
+
+# class hello:
+#     def __init__(self):
+#         pass
+#생성지(Constructor) 자동호출 <- 클래스 생성           
+
+
