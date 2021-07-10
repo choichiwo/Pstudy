@@ -10,7 +10,6 @@
 # IDE: 통합개발환경
 # private: 사적인  
 
-class C:
 # def set_name(self, x):   #x는 setter
 #     self.m = x  # setting 
 

@@ -1,5 +1,5 @@
 class Menu:
-    def __init__(self):
+    def __init__(self): #생성자가 초기화
         self.menulist=[]
         self.pricelist=[]
         print("메뉴 인스턴스가 생성되었습니다.")

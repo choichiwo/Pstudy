@@ -146,7 +146,7 @@ finally:
     print("프로그램 종료")                   
 
 try:
-    ......
+    ...
 except ValueError:
     print("값 오류")     
 except IndexError:
