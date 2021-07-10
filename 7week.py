@@ -9,3 +9,24 @@
 # 
 # IDE: 통합개발환경
 # private: 사적인  
+
+class C:
+# def set_name(self, x):   #x는 setter
+#     self.m = x  # setting 
+
+# def get_name(self): #b는getter
+#     return self.m #getting
+# 
+#  class Parent:
+#       def __init__(self):
+#           self.value = "테스트"
+#           print("parent클래스의 __init__호출")
+#       def test(self):
+#           print("Parent클래스의 test 메소드")            
+#  class Child(Parent):
+#       def __init__(self):
+#           Parent.__init__(self)
+#           print("child클래스의 __init__호출")
+#   c = Child() -> "parent클래스의 __init__호출","child클래스의 __init__호출"
+#   c.test() -> "Parent클래스의 test 메소드"
+#   print(c.value) -> "테스트"
