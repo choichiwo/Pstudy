@@ -4,8 +4,7 @@ class Menu:
     def __init__(self): #생성자가 초기화
         self.menulist=[]
         self.pricelist=[]
-        if os.path.isfile("c:/tmp/menu.txt"):
-            file = open("c:/tmp/menu.txt","r")
+        if os.path.isfile("c:/tmp/menu.txt"):           
             with open("c:/tmp/menu.txt", "r") as file:
                 for line in file: #한 줄씩 읽어와라
                     name, price = line.split(',')
