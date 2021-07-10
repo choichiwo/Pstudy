@@ -2,12 +2,13 @@ import menu as m
 
 newmenu = m.Menu()
 
-name = "라때"
-price = "3500"
 
-while():
+while True:
     newmenu.getMenu()
-    newmenu.addMenu(name,price)
+    if newmenu.menu_name == "":
+        break
+    else:
+        newmenu.addMenu(newmenu.menu_name, newmenu.price)
 
 newmenu.printList()    
     
