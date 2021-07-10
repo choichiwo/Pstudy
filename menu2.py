@@ -13,6 +13,14 @@ class Menu:
                     #self.pricelist.append(price)
                     #아래 개선버전 
                     self.pricelist.append(int(price))
+
+        # f = open("c:/tmp/menu.txt", "r")
+        # line = f.read()
+        # while line:\
+        #     name, price = line.split(',')
+        #     self.addMenu(name,price)
+        #     line=f.readline()
+        # self.printList()            
             
     
     def addMenu(self, name, price):
